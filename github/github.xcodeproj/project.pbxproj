@@ -15,6 +15,7 @@
 		C2C6DAC31C9A3E8B007D9874 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C6DAC11C9A3E8B007D9874 /* LaunchScreen.storyboard */; };
 		C2C6DACE1C9A3E8B007D9874 /* githubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C6DACD1C9A3E8B007D9874 /* githubTests.m */; };
 		C2C6DAD91C9A3E8B007D9874 /* githubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C6DAD81C9A3E8B007D9874 /* githubUITests.m */; };
+		C2C6DAE81C9A44D4007D9874 /* adViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C6DAE71C9A44D4007D9874 /* adViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C2C6DAD41C9A3E8B007D9874 /* githubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = githubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C6DAD81C9A3E8B007D9874 /* githubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = githubUITests.m; sourceTree = "<group>"; };
 		C2C6DADA1C9A3E8B007D9874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C6DAE61C9A44D4007D9874 /* adViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adViewController.h; sourceTree = "<group>"; };
+		C2C6DAE71C9A44D4007D9874 /* adViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = adViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				C2C6DAB61C9A3E8B007D9874 /* AppDelegate.h */,
 				C2C6DAB71C9A3E8B007D9874 /* AppDelegate.m */,
+				C2C6DAE61C9A44D4007D9874 /* adViewController.h */,
+				C2C6DAE71C9A44D4007D9874 /* adViewController.m */,
 				C2C6DAB91C9A3E8B007D9874 /* ViewController.h */,
 				C2C6DABA1C9A3E8B007D9874 /* ViewController.m */,
 				C2C6DABC1C9A3E8B007D9874 /* Main.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2C6DABB1C9A3E8B007D9874 /* ViewController.m in Sources */,
+				C2C6DAE81C9A44D4007D9874 /* adViewController.m in Sources */,
 				C2C6DAB81C9A3E8B007D9874 /* AppDelegate.m in Sources */,
 				C2C6DAB51C9A3E8B007D9874 /* main.m in Sources */,
 			);
